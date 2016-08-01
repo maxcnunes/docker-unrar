@@ -1,0 +1,4 @@
+unrar:
+  build: .
+  volumes:
+    - .:/usr/src/files
