@@ -8,6 +8,12 @@ Docker hub: [maxcnunes/unrar](https://hub.docker.com/r/maxcnunes/unrar/)
 docker pull maxcnunes/unrar
 ```
 
+Example:
+
+```shell
+docker run --rm -v $PWD:/usr/src/files maxcnunes/unrar:latest unrar e -r MY_FILE.rar
+```
+
 ## License
 
 Copyright (c) 2016 maxcnunes@gmail.com. This software is licensed under the **MIT License**.
