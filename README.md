@@ -11,7 +11,7 @@ docker pull maxcnunes/unrar
 Example:
 
 ```shell
-docker run --rm -v $PWD:/usr/src/files maxcnunes/unrar:latest unrar e -r MY_FILE.rar
+docker run --rm -v $PWD:/files maxcnunes/unrar:latest unrar e -r MY_FILE.rar
 ```
 
 ## License
